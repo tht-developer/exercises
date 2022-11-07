@@ -1,0 +1,29 @@
+
+/*achieved correct results, but did so by changing class identifiers in html file to include a DASH (-)
+instead of chaining classes . . . although I understand the chaining I wanted to try this also because
+the result is the same. Obviously if working with a larger quantity of images chaining would be needed 
+or more classes
+
+correct solution is:
+
+.avatar.proportioned {
+  height: auto;
+  width: 300px;
+}
+
+.avatar.distorted {
+  height: 400px;
+  width: 200px;
+}*/
+
+.avatar-proportioned
+{
+    width: 300px;
+    height: auto;
+}
+
+.avatar-distorted
+{
+    width: 200px;
+    height: 400px;
+}

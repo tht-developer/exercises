@@ -1,0 +1,23 @@
+p{
+    color: rgb(192, 17, 17); 
+    background-color: pink;  
+    font-style: verdana, dejavu sans, sans-serif;
+}
+
+.second {
+    color: blue;
+    font-size: 36px;
+}
+
+.third {
+    font-size: 24px;
+    color: rgb(192, 17, 17); 
+    background-color: pink;  
+    font-style: verdana, dejavu sans, sans-serif;
+}
+
+.fourth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+/*Decendant Combinator-
+Somewhat unsure on this one, it seemed too easy. The p elements were already "contained" by the class =container, and the 
+other lines of text did not have the parent "container". Just seemed too easy, maybe I missed something?
+
+Solution:
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+However, chaining classes on this was unecessary since the container class already achieved separation in the html.
+But I see the lesson regardless
+
+*/
+
+
+.container
+{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
